@@ -105,7 +105,7 @@ Implement the backward propagation for the **LINEAR --- ACTIVATION** layer,
         db -- Gradient of the cost with respect to b (current layer l), same shape as b
 
 
-#### 5.Update parameters:
+#### 5. Update parameters:
 Update parameters using gradient descent,
     
     Arguments:
@@ -117,7 +117,7 @@ Update parameters using gradient descent,
                       parameters["W" + str(l)] = ... 
                       parameters["b" + str(l)] = ...
 
-#### 6.Predict Labels:
+#### 6. Predict Labels:
 This function is used to predict the results of a  L-layer neural network,
     
     Arguments:
