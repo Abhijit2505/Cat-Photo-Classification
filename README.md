@@ -127,4 +127,12 @@ This function is used to predict the results of a  L-layer neural network,
     Returns:
         p - predictions for the given dataset X
         
-Currently this repository contains only the two layerd ANN, soon a L-Layred ANN having more layers and better accuracy will be added.
+### Activation Functions Used:
+
+![Sigmoid and Relu](https://github.com/Abhijit2505/Cat-Photo-Classification/blob/master/Images/Sigmoid%20and%20Relu.png)
+
+we have used **ReLU** for the first layer and for the second we have used **Sigmoid**.
+        
+
+
+PS - Currently this repository contains only the two layerd ANN, soon a L-Layred ANN having more layers and better accuracy will be added.
