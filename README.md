@@ -19,7 +19,7 @@ Detailed Architecture:
 
 ### General Methodology:
 
-As usual you will follow the Deep Learning methodology to build the model:
+As usual you will follow the Deep Learning methodology to build the model,
 
     1. Initialize parameters / Define hyperparameters
     2. Loop for num_iterations:
@@ -46,7 +46,7 @@ This function initializes the parameters for further use in the helper and main 
                 b2 - bias vector of shape (n_y, 1)  
 
 #### 2. Forward Propagation:
-Implement the linear part of a layers forward propagation**.
+Implement the linear part of a layers forward propagation,
 
     Arguments:
         A - activations from previous layer (or input data): (size of previous layer, number of examples)
@@ -57,7 +57,7 @@ Implement the linear part of a layers forward propagation**.
         Z - the input of the activation function, also called pre-activation parameter 
         cache - a python dictionary containing "A", "W" and "b" ; stored for computing the backward pass efficiently
 
-Implement the forward propagation for the **LINEAR --- ACTIVATION** layer
+Implement the forward propagation for the **LINEAR --- ACTIVATION** layer,
 
     Arguments:
         A_prev - activations from previous layer (or input data): (size of previous layer, number of examples)
@@ -71,7 +71,7 @@ Implement the forward propagation for the **LINEAR --- ACTIVATION** layer
              stored for computing the backward pass efficiently
 
 #### 3. Compute Cost Function:
-Implement the cost function.
+Implement the cost function,
 
     Arguments:
         AL - probability vector corresponding to your label predictions, shape (1, number of examples)
@@ -81,7 +81,7 @@ Implement the cost function.
         cost - cross-entropy cost
 
 #### 4. Backward propagation:
-Implement the linear portion of backward propagation for a single layer
+Implement the linear portion of backward propagation for a single layer,
 
     Arguments:
         dZ -- Gradient of the cost with respect to the linear output (of current layer l)
@@ -92,7 +92,7 @@ Implement the linear portion of backward propagation for a single layer
         dW -- Gradient of the cost with respect to W (current layer l), same shape as W
         db -- Gradient of the cost with respect to b (current layer l), same shape as b
     
-Implement the backward propagation for the **LINEAR --- ACTIVATION** layer.
+Implement the backward propagation for the **LINEAR --- ACTIVATION** layer,
 
     Arguments:
         dA -- post-activation gradient for current layer l 
@@ -106,7 +106,7 @@ Implement the backward propagation for the **LINEAR --- ACTIVATION** layer.
 
 
 #### 5.Update parameters:
-Update parameters using gradient descent
+Update parameters using gradient descent,
     
     Arguments:
         parameters - python dictionary containing your parameters 
@@ -118,7 +118,7 @@ Update parameters using gradient descent
                       parameters["b" + str(l)] = ...
 
 #### 6.Predict Labels:
-This function is used to predict the results of a  L-layer neural network.
+This function is used to predict the results of a  L-layer neural network,
     
     Arguments:
         X - data set of examples you would like to label
@@ -126,3 +126,5 @@ This function is used to predict the results of a  L-layer neural network.
 
     Returns:
         p - predictions for the given dataset X
+        
+Currently this repository contains only the two layerd ANN, soon a L-Layred ANN having more layers and better accuracy will be added.
