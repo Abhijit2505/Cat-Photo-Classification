@@ -1,5 +1,7 @@
 # Cat-Photo-Classification
 
+![Cat-ANN](https://github.com/Abhijit2505/Cat-Photo-Classification/blob/master/Images/two-layered-NN.png)
+
 ## Model Architecture
 
 This repository contains two models having <b>2 -</b> layers of neural network and <b>L - </b> layers of neural network respectively.
